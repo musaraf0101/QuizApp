@@ -37,7 +37,12 @@ class StartScreen extends StatelessWidget {
                 width: 304,
                 height: 304,
               ),
-              Button(),
+              Button(
+                lable: 'Quiz',
+                onAction: () {
+                  print('Clicked');
+                },
+              ),
             ],
           ),
         ),
